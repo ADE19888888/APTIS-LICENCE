@@ -1,0 +1,41 @@
+LE GÉNÉRATEUR SUR GITHUB (ET SUR IPHONE)
+========================================
+
+Le générateur contient votre clé privée : en clair, il ne doit
+JAMAIS être déposé en ligne — quiconque l'ouvrirait pourrait
+signer des licences APTIS. La version en ligne doit donc être
+la version PROTÉGÉE, où la clé est chiffrée par un mot de passe.
+
+ÉTAPE 1 — produire le fichier protégé (sur votre PC, une fois)
+--------------------------------------------------------------
+Ouvrez APTIS_GENERATEUR_V3.html. Un bloc bleu « Protéger la clé
+privée par un mot de passe » est proposé en haut. Choisissez un
+mot de passe d'au moins 12 caractères, confirmez, cliquez.
+Un fichier APTIS_GENERATEUR_V3_PROTEGE.html est téléchargé.
+
+Il n'existe AUCUN moyen de retrouver ce mot de passe. Gardez le
+fichier non protégé hors ligne, en lieu sûr : c'est votre secours.
+
+ÉTAPE 2 — le dépôt GitHub
+-------------------------
+Créez un dépôt à part (ex. « aptis-licences »), de préférence
+PRIVÉ si vous n'avez pas besoin de GitHub Pages. Pour l'ouvrir
+sur iPhone par une adresse web, il faut Pages, donc un dépôt
+PUBLIC (gratuit) — acceptable seulement parce que la clé y est
+chiffrée : sans le mot de passe, le fichier ne signe rien.
+
+Renommez APTIS_GENERATEUR_V3_PROTEGE.html en index.html, déposez
+index.html + un fichier vide .nojekyll, puis Settings → Pages →
+Deploy from a branch → main / (root). Adresse :
+    https://VOTRECOMPTE.github.io/aptis-licences/
+
+ÉTAPE 3 — sur l'iPhone
+----------------------
+Ouvrez l'adresse dans Safari : le mot de passe est demandé.
+Le générateur fonctionne alors normalement. Le registre reste
+dans le stockage de Safari de l'iPhone (un fichier en ligne ne
+peut pas se réécrire) : de temps en temps, « Enregistrer le
+registre » puis « Importer » sur le PC pour tout réunir.
+
+Sur le PC, continuez à utiliser le fichier NON protégé avec son
+enregistrement automatique — c'est le registre de référence.

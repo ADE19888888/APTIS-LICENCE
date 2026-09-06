@@ -1,0 +1,64 @@
+APTIS — GÉNÉRATEUR DE LICENCES V3
+=================================
+
+Ce fichier NE VA PAS sur le site Cloudflare. Il reste sur votre
+ordinateur : il contient votre clé privée. Qui détient ce fichier
+peut délivrer des licences APTIS.
+
+Rien à configurer : la clé privée de l'ancien générateur est
+reprise. Le bandeau en haut à droite dit « Clé privée prête ».
+
+ENREGISTREMENT AUTOMATIQUE — à activer une fois
+-----------------------------------------------
+À la première ouverture, un bandeau orange propose « Activer
+l'enregistrement automatique dans ce fichier ». Cliquez, et
+choisissez CE MÊME fichier dans la fenêtre (il s'appelle déjà
+comme il faut : validez, acceptez de remplacer).
+
+Dès lors, chaque changement — licence délivrée, encaissement,
+tarif — est écrit dans le fichier lui-même. Le registre voyage
+avec lui : copiez le fichier sur un autre ordinateur, tout y est.
+Le bandeau passe au vert et indique l'heure du dernier
+enregistrement.
+
+Chrome et Edge savent le faire. Sur un autre navigateur, le
+bouton le dit, et « Enregistrer le registre » reste disponible.
+À la réouverture, un clic « Reprendre » peut être demandé : le
+navigateur revalide la permission d'écrire.
+
+TROIS ONGLETS
+-------------
+➕ Nouvelle licence
+   1. Code de l'ordinateur du médecin (APTIS → Licence → « Code
+      de cet ordinateur »), nom, téléphone (pour WhatsApp).
+   2. Permanente, ou Temporaire avec une durée (1 à 24 mois).
+      Le prix se propose d'après la grille tarifaire, reste
+      modifiable ; « Encaissé maintenant » et « Licence offerte ».
+   3. Générer → clé vérifiée, Copier, WhatsApp avec message prêt.
+
+📒 Licences délivrées
+   Compteurs : nombre, encaissé cette année, ce mois, restant à
+   encaisser, et la barre de l'objectif annuel.
+   Liste avec type, prix, règlement (payée / reste / offerte),
+   bouton « Encaisser » pour un règlement ultérieur, filtres
+   (restant à encaisser, temporaires, expirent sous 30 jours…).
+   CSV, « Enregistrer le registre » (fichier .json), Importer.
+
+💰 Tarifs & objectif
+   Devise, prix permanente, prix par mois, remises par durée,
+   objectif annuel. Modifiables à tout moment.
+
+REPRENDRE L'ANCIEN REGISTRE
+---------------------------
+Dans l'ancien générateur : exporter le registre (fichier
+APTIS_registre_licences_….json). Ici : onglet Licences délivrées
+→ Importer. Les prix et montants payés sont repris.
+
+SI L'ENREGISTREMENT AUTOMATIQUE N'EST PAS ACTIVÉ
+------------------------------------------------
+Le registre est alors gardé par le navigateur seulement. Si
+celui-ci le refuse (fenêtre privée, stockage bloqué), un bandeau
+rouge le dit ; « Enregistrer le registre » télécharge une copie
+à réimporter.
+
+Vérifié : les clés produites sont acceptées par APTIS V2.76.
